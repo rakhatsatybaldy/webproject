@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   mainTitle = 'Welcome to SERVICE';
   secTitle = 'where you can search hotels in Kazakhstan';
+  show = false;
+  parentValue = 'Another value';
+
+  duplicate(){
+    this.parentValue = this.parentValue;
+  }
 }
